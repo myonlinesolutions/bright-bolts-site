@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				electric: {
+					blue: 'hsl(var(--electric-blue))',
+					glow: 'hsl(var(--electric-glow))',
+					yellow: 'hsl(var(--lightning-yellow))',
+					orange: 'hsl(var(--spark-orange))',
+					dark: 'hsl(var(--deep-dark))',
+					gray: 'hsl(var(--circuit-gray))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +70,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-electric': 'var(--gradient-electric)',
+				'gradient-spark': 'var(--gradient-spark)',
+				'gradient-hero': 'var(--gradient-hero)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
